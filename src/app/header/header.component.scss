@@ -1,0 +1,64 @@
+
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    padding: 6px 4px;
+    height: 20px;
+}
+
+.header{
+    padding: 3px 0px;
+    background-color:#f5f5f5;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    padding-left: 78px;
+   
+
+}
+
+.book-text{
+    font: normal normal bold 20px/20px Montserrat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0px;
+    color:#008CFF
+
+}
+.book-address{
+    font: normal normal bold 20px/20px Montserrat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #031526;
+}
+
+mat-toolbar-row, .mat-toolbar-single-row {
+    display: flex;
+    box-sizing: border-box;
+    padding: 35px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+mat-toolbar-row[_ngcontent-jiq-c33], .mat-toolbar-single-row[_ngcontent-jiq-c33] {
+    display: flex;
+    box-sizing: border-box;
+    padding: 28px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+.mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6 {
+    font: 500 20px/22px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+

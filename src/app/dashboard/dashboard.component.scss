@@ -1,0 +1,116 @@
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(1000px - 80px);
+    background-color: white;
+    padding: 3px 0 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+    padding-bottom: 14px;
+}
+
+.book-details-text{
+    font-family:Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(33 30 77 / 82%);
+    opacity: 1;
+}
+ .book-count{
+    background-color: #008CFF;
+    color: aliceblue;
+    border-radius: 40%;
+    font-size: 15px;
+    width: 26px;
+    text-align: center;
+    display: inline-block;
+
+ }
+
+ .table-main{
+  text-align: left;
+  font: normal normal bold 12px/12px Lato;
+  letter-spacing: 0px;
+  color: #658292;
+  text-transform: capitalize;
+  padding-left: 122px;
+  padding-right: 180px;
+  opacity: 1;
+ }
+ .table{
+    width: 105%;
+    font: normal normal  18px/22px Lato;
+    font-size:small;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    min-width: 417px;
+   
+ }
+ td, th{
+   text-align: left;
+   padding: 1px 8px;
+
+ }
+ th{
+   background: #42515f 0% 0% no-repeat padding-box;
+   border-radius:0px 0px 0px 0px ;
+   text-align: left;
+   font: normal normal medium 18px/24px Roboto;
+   letter-spacing: 0px;
+   color: #ffffff;
+   text-transform: uppercase;
+   opacity: 1;
+   border: 0px solid #dddddd;
+
+
+ }
+ tr:not(:first-child){
+   background: #ffffff 0% 0% no-repeat padding-box;
+   border: 1px solid #e3e3e3;
+   border-radius: 3px;
+
+ }
+
+ td{
+   font: normal normal bold 18px/22px Lato;;
+   letter-spacing: 0px;
+   color: black;
+   opacity: 1;
+ }
+ .mat-flat-button.mat-warn, .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn {
+    background-color: #4136f4;
+}
+.mat-raised-button {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 0px;
+    line-height: 28px;
+    padding: -6px -5px;
+    border-radius: 4px;
+    overflow: visible;
+    transform: translate3d(0, 0, 0);
+    transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1),box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
